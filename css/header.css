@@ -1,4 +1,9 @@
+.header {
+    background: linear-gradient(180deg, rgba(214, 218, 228, 0) 0%, rgba(214, 218, 228, 0.2) 100%);
+}
+
 .header__nav {
+    background-color: #fff;
     -webkit-box-shadow: 2px 14px 27px 9px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 2px 14px 27px 9px rgba(0, 0, 0, 0.1);
     box-shadow: 2px 14px 27px 9px rgba(0, 0, 0, 0.1);
@@ -78,7 +83,7 @@
 
 .header__main {
     padding-top: 50px;
-    padding-bottom: 75px;
+    padding-bottom: 105px;
 }
 
 .header__content {
@@ -182,4 +187,5 @@
 .footer__sponsors {
     display: flex;
     column-gap: 60px;
+    margin-bottom: 50px;
 }
