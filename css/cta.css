@@ -56,15 +56,13 @@
 
 /* CTA SLIDER */
 
-.cta__slider {
-    display: flex;
-    column-gap: 20px;
-}
-
 .slider__item {
     width: 310px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
     border-radius: 4px;
+    margin-bottom: 30px;
 }
 
 .slider__item-top img {
@@ -72,24 +70,48 @@
 }
 
 .slider__item-bot {
-    max-width: 330px;
-    padding-left: 20px;
+    padding: 20px;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    text-align: left;
     gap: 10px;
 }
 
 .slider__item-title {
-    padding-top: 20px;
     font-size: 32px;
     font-weight: 900;
-    line-height: 37.5px;
 }
 
 .slider__item-text {
     font-size: 18px;
     font-weight: 400;
-    padding-bottom: 20px;
     line-height: 24px;
+}
+
+/* PAGINATION */
+
+.cta__slider {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.slider__nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+    background-color: gray;
+}
+
+.nav__item.active {
+    background-color: #fff;
 }
