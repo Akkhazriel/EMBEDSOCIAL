@@ -35,3 +35,24 @@ $(".widgets__img5").mouseover(function() {
 }).mouseleave(function() {
     $(this).attr("src", "img/widgets/icons/5-no-active.png");
 });
+
+// Slider
+var owl = $('.owl-carousel');
+owl.owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:4
+        },
+    }
+});
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('next.owl');
+    } else {
+        owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+});
