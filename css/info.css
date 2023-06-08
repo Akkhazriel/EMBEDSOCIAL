@@ -93,6 +93,11 @@
     align-items: center;
 }
 
+.info__footer-img {
+    pointer-events: none;
+    user-select: none;
+}
+
 .info__footer-text {
     font-size: 18px;
     font-weight: 400;
@@ -112,4 +117,9 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 28px;
+}
+
+.info__footer-quote img {
+    pointer-events: none;
+    user-select: none;
 }
