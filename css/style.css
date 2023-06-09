@@ -7,6 +7,7 @@
 @import url(cta.css);
 @import url(offer.css);
 @import url(platforms.css);
+@import url(ctc.css);
 
 /* CSS FONTS */
 
@@ -22,6 +23,12 @@ body {
 
 .container {
     max-width: 1331px;
+
+    margin: 0 auto;
+}
+
+.container-b {
+    max-width: 1675px;
 
     margin: 0 auto;
 }
