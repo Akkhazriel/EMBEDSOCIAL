@@ -1,0 +1,116 @@
+.offer {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.offer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
+.offer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customisation__link {
+    display: inline-block;
+    background-color: var(--info-light);
+    max-width: 153px;
+    position: relative;
+    padding: 10px 20px 10px 34px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    color: var(--color-active);
+    font-weight: 500;
+
+    transition: all 0.2s ease-in;
+}
+
+.customisation__link:hover {
+    background-color: var(--standart-color);
+    color: #FFF;
+    transform: scale(110%);
+}
+
+.customisation__link img {
+    display: inline-block;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+
+.offer__item-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customisation__title {
+    max-width: 757px;
+
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.customisation__text {
+    max-width: 875px;
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-bottom: 50px;
+}
+
+.offer__item-row {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    column-gap: 10px;
+}
+
+.customisation__item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--info-light);
+    padding: 17px 10px;
+
+    transition: all 0.4s ease;
+}
+
+.customisation__item:hover {
+    transform: scale(105%);
+    gap: 10px;
+}
+
+.customisation__item a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--standart-color);
+}
+
+.installation__link {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    user-select: none;
+    pointer-events: none;
+}
+
+.installation__link a {
+    color: var(--standart-color);
+}
+
+.offer__item-img img {
+    transition: all 2s ease-in;
+}
+
+.offer__item-img img:hover {
+    transform: scale(85%);
+}

@@ -24,6 +24,7 @@
     font-weight: 900;
     color: #FFF;
     margin-bottom: 20px;
+    margin-top: 70px;
 }
 
 .cta__text {
@@ -110,6 +111,8 @@
     border-radius: 5px;
     margin: 0 5px;
     background-color: gray;
+
+    margin-bottom: 80px;
 }
 
 .nav__item.active {
