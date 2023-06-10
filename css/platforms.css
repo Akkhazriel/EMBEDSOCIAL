@@ -71,6 +71,8 @@
     position: relative;
     top: 13px;
     right: 205px;
+    pointer-events: none;
+    user-select: none;
 }
 
 .platforms__img-links {
