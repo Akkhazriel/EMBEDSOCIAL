@@ -33,6 +33,12 @@
     border-radius: 10px;
     padding-left: 22px;
     padding-right: 38px;
+
+    transition: transform 0.2s ease-in-out;
+}
+
+.services__item:hover {
+    transform: scale(105%);
 }
 
 .services__item img {
