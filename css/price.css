@@ -1,0 +1,268 @@
+.price {
+    background-color: #EEF1F7;
+    margin-bottom: 150px;
+}
+
+.price__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER TITLE */
+
+.price__header {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.price__title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.price__text {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+/* PRICE LIST */
+
+.price__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.price__list-links {
+    display: flex;
+    width: 264px;
+    height: 62px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.price__link {
+    width: 50%;
+    padding: 18px 10px;
+    color: #9CA0AC;
+
+    transition: all .2s ease-in;
+}
+
+.price__link:first-child {
+    width: 80%;
+}
+
+.price__link.active {
+    color: #FFF;
+    margin: 5px;
+    height: 52px;
+    background-color: #111827;
+    border-radius: 5px;
+}
+
+/* PRICE LIST ITEMS */
+
+.price__list-items {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.price__item {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1.11468px solid #D6DAE4;
+    cursor: pointer;
+
+    margin-bottom: 200px;
+    transition: all 100ms ease-in;
+}
+
+.price__item.active {
+    border: 3px solid #0066FF;
+}
+
+.price__item-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price__item-title h4 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.price__item-cost {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.price__item-cost span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* BTN */
+
+.price__item-btn {
+    border: 3px solid #0066FF;
+    padding: 16px 53px;
+    font-weight: 700;
+    font-size: 16px;
+
+
+    transition: all .2s ease-in;
+
+}
+
+.price__item-btn.active {
+    background-color: #0066FF;
+    color: #FFF;
+}
+
+.price__possibilities {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.price__possibilities li {
+    display: flex;
+    column-gap: 10px;
+    color: #9CA0AC;
+    text-decoration: line-through;
+}
+
+.price__possibilities img {
+    width: 16px;
+    height: 12px;
+}
+
+.price__possibilities.item-1 li:nth-child(1),
+.price__possibilities.item-1 li:nth-child(2) {
+    color: var(--standart-color);
+    text-decoration: none;
+}
+
+.price__possibilities.item-2 li:nth-child(1),
+.price__possibilities.item-2 li:nth-child(2),
+.price__possibilities.item-2 li:nth-child(3),
+.price__possibilities.item-2 li:nth-child(4),
+.price__possibilities.item-2 li:nth-child(5),
+.price__possibilities.item-2 li:nth-child(7),
+.price__possibilities.item-2 li:nth-child(6) {
+    color: var(--standart-color);
+    text-decoration: none;
+}
+
+.price__possibilities.item-3 li:nth-child(1),
+.price__possibilities.item-3 li:nth-child(2),
+.price__possibilities.item-3 li:nth-child(3),
+.price__possibilities.item-3 li:nth-child(4),
+.price__possibilities.item-3 li:nth-child(5),
+.price__possibilities.item-3 li:nth-child(7),
+.price__possibilities.item-3 li:nth-child(6) {
+    color: var(--standart-color);
+    text-decoration: none;
+}
+
+.price__possibilities.item-4 li {
+    color: var(--standart-color);
+    text-decoration: none;
+}
+
+
+/* QUESTIONS */
+
+.price__questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price__questions-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.price__questions-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.price__questions-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--standart-color);
+    margin-bottom: 80px;
+}
+
+.price__questions-text a {
+    color: #0066FF;
+}
+
+.price__questions-list {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: left;
+    gap: 20px;
+}
+
+.price__questions-item {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+.price__questions-item:last-child {
+    margin-bottom: 150px;
+}
+
+.price__questions-btn {
+    color: var(--standart-color);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.questions__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: all 1s ease-in-out;
+}
+
+.price__questions-desc {
+    color: var(--standart-color);
+    font-size: 18px;
+    font-weight: 400;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+
+.price__questions-desc.active {
+    display: block;
+}   
