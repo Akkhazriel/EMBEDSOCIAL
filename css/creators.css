@@ -1,0 +1,22 @@
+.creators {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.creators__content {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    align-items: center;
+    text-align: center;
+}
+
+.creators__title {
+    max-width: 981px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.creators__title span {
+    background-color: #F9ED32;
+}
