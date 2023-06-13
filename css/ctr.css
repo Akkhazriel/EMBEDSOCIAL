@@ -1,0 +1,45 @@
+.ctr {
+    margin-top: 150px;
+    margin-bottom: 150px;
+
+    background-color: #EEF1F7;
+
+    padding: 96px 0;
+}
+
+.ctr__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ctr__header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.ctr__title {
+    max-width: 644px;
+
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.ctr__text {
+    max-width: 580px;
+
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;   
+
+    margin-bottom: 40px;
+}
+
+.ctr__btn {
+    display: flex;
+    margin-bottom: 40px;
+}
