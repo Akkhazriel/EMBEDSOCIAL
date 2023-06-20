@@ -1,3 +1,20 @@
+/* MOBILE */
+
+@media (max-width: 1325px) {
+    .ctc__row {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+        align-items: center;
+    }
+
+    .ctc__content-desc {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
 .ctc {
     margin-bottom: 150px;
     margin-top: 150px;
@@ -5,7 +22,7 @@
 }
 
 .ctc__content-desc {
-    padding: 100px 0 92px 172px;
+    padding: 100px 0 92px 0;
     max-width: 844px;
 
     display: flex;

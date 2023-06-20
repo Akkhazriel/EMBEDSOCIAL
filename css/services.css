@@ -1,3 +1,17 @@
+/* MOBILE */
+
+@media (max-width: 1325px) {
+    .services__wrapper {
+        align-items: center;
+    }
+
+    .services__list {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
 .services {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -18,7 +32,7 @@
 .services__list {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1300px;
+    max-width: 1440px;
     column-gap: 20px;
     align-items: center;
 }
@@ -63,7 +77,7 @@
 .services__list-more {
     color: var(--standart-color);
     font-weight: 400;
-
+    margin-bottom: 10px;
 }
 
 .services__list-more span{

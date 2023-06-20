@@ -1,3 +1,14 @@
+/* MOBILE */
+
+@media (max-width: 1325px) {
+    .customers__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0;
+    }
+}
+
 .customers {
     margin-top: 150px;
     margin-bottom: 150px;
@@ -41,7 +52,7 @@
     flex-wrap: wrap;
     column-gap: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .customers__item {
@@ -56,7 +67,7 @@
 }
 
 .customers__copyright {
-    margin-left: 40%;
+
 }
 
 .customers__item-name {

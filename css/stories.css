@@ -29,7 +29,7 @@
 .stories__widget {
     display: flex;
     flex-direction: column;
-    gap: 211px;
+    gap: 180px;
 }
 
 .widget__item {

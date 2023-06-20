@@ -1,6 +1,36 @@
+/* MOBILE */
+
+@media (max-width: 1300px) {
+    .widgets__row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .widgets__desc {
+        -webkit-box-ordinal-group: 1;
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1;
+
+        display: flex;
+        align-items: center;
+        margin-bottom: 80px;
+        gap: 100px;
+    }
+
+    .widgets__img {
+        -webkit-box-ordinal-group: 2;
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+}
+
+
 
 .widgets {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 150px;
 }
 
