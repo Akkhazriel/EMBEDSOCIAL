@@ -1,3 +1,10 @@
+
+@media (max-width: 1300px) {
+    .cta {
+        display: none;
+    }
+}
+
 .cta {
     background-color: #111827;
 }
